@@ -21,3 +21,20 @@ docker build --build-arg RESOURCES_BASE_URI={{URI}} -t my-docu .
 ```
 
 - **{{URI}}** base URI where resources will be served (default: `localhost:3000/files`)
+
+## Deploy on Kubernetes
+
+1. Deployment
+```bash
+kubectl create -f kubernetes/deployment.yaml
+```
+
+2. Service
+```bash
+kubectl create -f kubernetes/service.yaml
+```
+
+3. Ingress
+```bash
+kubectl create -f kubernetes/ingress.yaml
+```

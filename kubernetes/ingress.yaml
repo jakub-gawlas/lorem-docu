@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: lorem-docu-ingress
+spec:
+  rules:
+  - host: lorem.api.io
+    http:
+      paths:
+        - path: /
+          backend:
+            serviceName: lorem-docu-service
+            servicePort: 3000
