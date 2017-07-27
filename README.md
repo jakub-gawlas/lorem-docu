@@ -10,9 +10,9 @@ docker run --rm -it -p 3000:3000 jakubgawlas/lorem-docu
 Application is running on `localhost:3000`.
 
 Available endpoints:
-- [GraphQL IDE - /graphiql](localhost:3000/graphiql)
-- [GraphQL endpoint - /graphql](localhost:3000/graphql)
-- [Resources - /files/:filename](localhost:3000/files/solo.jpg)
+- [GraphQL IDE - /graphiql](http://localhost:3000/graphiql)
+- [GraphQL endpoint - /graphql](http://localhost:3000/graphql)
+- [Resources - /files/:filename](http://localhost:3000/files/solo.jpg)
 
 ## Build
 
