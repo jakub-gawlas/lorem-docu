@@ -16,6 +16,10 @@ Available endpoints:
 
 ## Build
 
+Files required to generate documentation are placed in `src` dir:
+- configuration file `docu.config.json`
+- `docu` dir, which contains sources of content to generate
+
 ```bash
 docker build --build-arg RESOURCES_BASE_URI={{URI}} -t my-docu .
 ```
