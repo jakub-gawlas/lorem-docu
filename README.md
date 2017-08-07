@@ -11,7 +11,7 @@ Application is running on `localhost:3000`.
 
 Available endpoints:
 - [GraphQL IDE (/graphiql)](http://localhost:3000/graphiql)
-- [GraphQL endpoint (/graphql)](http://localhost:3000/graphql)
+- GraphQL endpoint (/graphql), for example http://localhost:3000/graphql?query={documentation{name%20description%20documents{title%20tags%20content}}}
 - [Resources (/files/:filename)](http://localhost:3000/files/solo.jpg)
 
 ## Build
